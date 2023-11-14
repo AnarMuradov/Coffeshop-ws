@@ -1,0 +1,29 @@
+#section2 {
+  max-width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(230, 167, 86, 0.9);
+  .section2-box {
+    max-width: 800px;
+    height: 380px;
+    background-color: #f6e1c5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 48px;
+    gap: 30px;
+    .section2-box-head h2 {
+      font-size: 60px;
+      font-weight: 100;
+      line-height: 60px;
+    }
+    .section2-box-text {
+      line-height: 29px;
+    }
+  }
+}

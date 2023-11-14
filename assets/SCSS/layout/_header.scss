@@ -1,0 +1,23 @@
+#header {
+  max-width: 100%;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .text-content {
+    color: #e6a756;
+    font-size: 24px;
+  }
+  .header-name h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: 100;
+    line-height: 65px;
+  }
+}
+@media only screen and (max-width: 1100px){
+    #header {
+      display: none; 
+  }
+  }
