@@ -202,6 +202,72 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: static;
+    flex-direction: column;
+    max-width: 100%;
+    min-height: 750px;
+  }
+  #section1 .section1-container .section1-container-box {
+    max-width: 500px;
+    height: 380px;
+    background-color: #f6e1c5;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  #section1 .section1-container .section1-container-box .section1-container-box-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  #section1 .section1-container .section1-container-box .section1-container-box-info .section1-container-box-info-head h2 {
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 40px;
+    max-width: 470px;
+  }
+  #section1 .section1-container .section1-container-box .section1-container-box-info .section1-container-box-info-text {
+    width: 381px;
+    line-height: 16px;
+  }
+  #section1 .section1-container .section1-container-box .section1-container-box-btn a {
+    width: 140px;
+    height: 60px;
+    background-color: #e6a756;
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    position: static;
+    transition: 200ms;
+    display: block;
+  }
+  #section1 .section1-container .section1-container-box .section1-container-box-btn a:hover {
+    background-color: #eab46f;
+  }
+  #section1 .section1-container .section1-container-img {
+    width: 837px;
+    height: 558px;
+    position: static;
+  }
+  #section1 .section1-container .section1-container-img img {
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #section1 .section1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
     flex-direction: column;
     min-height: 750px;
   }
@@ -249,10 +315,76 @@ body {
     background-color: #eab46f;
   }
   #section1 .section1-container .section1-container-img {
-    width: 837px;
-    height: 558px;
+    max-width: 537px;
+    min-height: 258px;
+    position: static;
     z-index: -1;
     left: 395px;
+  }
+  #section1 .section1-container .section1-container-img img {
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #section1 .section1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    flex-direction: column;
+    min-height: 750px;
+  }
+  #section1 .section1-container .section1-container-box {
+    max-width: 300px;
+    height: 100px;
+    background-color: #f6e1c5;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  #section1 .section1-container .section1-container-box .section1-container-box-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  #section1 .section1-container .section1-container-box .section1-container-box-info .section1-container-box-info-head h2 {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 10px;
+    max-width: 270px;
+  }
+  #section1 .section1-container .section1-container-box .section1-container-box-info .section1-container-box-info-head h3 {
+    font-size: 10px;
+  }
+  #section1 .section1-container .section1-container-box .section1-container-box-info .section1-container-box-info-text {
+    width: 181px;
+    line-height: 10px;
+    font-size: 8px;
+  }
+  #section1 .section1-container .section1-container-box .section1-container-box-btn {
+    width: 40px;
+    height: 10px;
+    background-color: #e6a756;
+    text-align: center;
+    display: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 200ms;
+  }
+  #section1 .section1-container .section1-container-box .section1-container-box-btn a:hover {
+    background-color: #eab46f;
+  }
+  #section1 .section1-container .section1-container-img {
+    max-width: 237px;
+    min-height: 108px;
+    position: static;
   }
   #section1 .section1-container .section1-container-img img {
     border-radius: 5px;
@@ -270,7 +402,7 @@ body {
 
 #section2 .section2-box {
   max-width: 800px;
-  height: 380px;
+  min-height: 380px;
   background-color: #f6e1c5;
   border-radius: 5px;
   display: flex;
@@ -290,6 +422,39 @@ body {
 
 #section2 .section2-box .section2-box-text {
   line-height: 29px;
+}
+
+@media only screen and (max-width: 450px) {
+  #section2 {
+    max-width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(230, 167, 86, 0.9);
+  }
+  #section2 .section2-box {
+    max-width: 800px;
+    min-height: 380px;
+    background-color: #f6e1c5;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 48px;
+    gap: 30px;
+  }
+  #section2 .section2-box .section2-box-head h2 {
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 20px;
+  }
+  #section2 .section2-box .section2-box-text {
+    line-height: 19px;
+    font-size: 12px;
+  }
 }
 
 #footer {
